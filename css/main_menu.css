@@ -32,7 +32,7 @@ body
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 150px;    
+    gap: 25px;    
     align-items: center;
 
 }
@@ -58,6 +58,7 @@ footer
 
 .middle-box > a
 {
+    margin-top: 100px;
     font-size: 50px;
     text-decoration: none;
     color: #F0ECE5;
@@ -78,3 +79,16 @@ footer
     transition: all 0.3s;
 }
 
+.icons > img
+{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.icons
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
